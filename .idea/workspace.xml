@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="21a3d8ee-fc68-46d1-b0ac-13e5bb34540e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/ReadingApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/api/config/WebConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/api/config/loginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/api/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/api/controller/BookRackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/api/controller/NodesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/api/controller/ReadingRecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/api/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/api/transaction/TransactionAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/api/vo/BookRackVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/api/vo/BookVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/api/vo/ChapterVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/api/vo/NodesVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/api/vo/ReadingRecordVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/api/vo/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/db/dao/BookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/db/dao/BookRackMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/db/dao/ChapterMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/db/dao/NodesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/db/dao/ReadingRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/db/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/db/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/db/model/BookRack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/db/model/Chapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/db/model/Nodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/db/model/ReadingRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/db/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/domain/context/AjaxResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/domain/context/BasePageVOContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/domain/handle/BasePageAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/domain/service/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/domain/service/BasePageVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/domain/service/OrderItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/service/base/IBaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/service/bo/BookBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/service/bo/BookRackBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/service/bo/ChapterBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/service/bo/IBaseBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/service/bo/NodesBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/service/bo/ReadingRecordBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/service/bo/UserBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/service/service/BookRackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/service/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/service/service/ChapterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/service/service/NodesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/service/service/ReadingRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/service/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/service/service/impl/BookRackServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/service/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/service/service/impl/ChapterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/service/service/impl/NodesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/service/service/impl/ReadingRecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyjj/reading/service/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/controller.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/modelAddVO.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/modelBO.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/modelUpdateVO.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/modelVO.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/service.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/serviceImpl.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/yyjj/reading/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/yyjj/reading/VelocityEngineBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/yyjj/reading/VelocityInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="reading">
+      <favorite_root url="file://$PROJECT_DIR$/src/main/resources/static/js/api.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aAUa9H83UvtJnJcdCKY3H6E5ke" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/software/Git/bin/git.exe" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.29954752" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\turing\项目\客服\reading\src\main\resources\static" />
+      <recent name="G:\turing\项目\客服\reading\src\main\resources\static\js\main" />
+      <recent name="E:\Workspaces\idea\reading\src\main\resources\static\js\main" />
+      <recent name="E:\Workspaces\idea\reading\src\main\resources\static\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ReadingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="reading" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yyjj.reading.ReadingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21a3d8ee-fc68-46d1-b0ac-13e5bb34540e" name="Default Changelist" comment="" />
+      <created>1586177952655</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586177952655</updated>
+      <workItem from="1586177954623" duration="4687000" />
+      <workItem from="1586217839022" duration="2350000" />
+      <workItem from="1586262640276" duration="5684000" />
+      <workItem from="1586310259872" duration="4453000" />
+      <workItem from="1586334361208" duration="2467000" />
+      <workItem from="1586565704283" duration="4087000" />
+      <workItem from="1586589594258" duration="3385000" />
+      <workItem from="1586603956588" duration="6802000" />
+      <workItem from="1586654381180" duration="162000" />
+      <workItem from="1586690245855" duration="7585000" />
+      <workItem from="1586698054205" duration="414000" />
+      <workItem from="1586698808359" duration="364000" />
+      <workItem from="1586700240804" duration="969000" />
+      <workItem from="1586742697623" duration="21000" />
+      <workItem from="1586856181849" duration="3063000" />
+      <workItem from="1586914072680" duration="6919000" />
+      <workItem from="1586939713281" duration="4199000" />
+      <workItem from="1586957239668" duration="29000" />
+      <workItem from="1586997977917" duration="880000" />
+      <workItem from="1587041950951" duration="26000" />
+      <workItem from="1587091883177" duration="438000" />
+      <workItem from="1587094768242" duration="2970000" />
+      <workItem from="1587109394050" duration="2409000" />
+      <workItem from="1587275652596" duration="3057000" />
+      <workItem from="1587297796842" duration="6059000" />
+      <workItem from="1587391984186" duration="859000" />
+      <workItem from="1587826237429" duration="3529000" />
+      <workItem from="1588401738605" duration="76000" />
+      <workItem from="1588403938757" duration="9296000" />
+      <workItem from="1588509754199" duration="466000" />
+      <workItem from="1588576160856" duration="10486000" />
+      <workItem from="1588596423860" duration="1099000" />
+      <workItem from="1588765712546" duration="16000" />
+      <workItem from="1588855607875" duration="3423000" />
+      <workItem from="1589071533594" duration="3002000" />
+      <workItem from="1589099969120" duration="10709000" />
+      <workItem from="1589369600983" duration="13000" />
+      <workItem from="1589412997127" duration="11111000" />
+      <workItem from="1589505090214" duration="6020000" />
+      <workItem from="1589528984351" duration="1068000" />
+      <workItem from="1589537996141" duration="4780000" />
+      <workItem from="1589588571115" duration="10148000" />
+      <workItem from="1589673341095" duration="2813000" />
+      <workItem from="1589702919818" duration="1009000" />
+      <workItem from="1589720388762" duration="978000" />
+      <workItem from="1589764342689" duration="732000" />
+      <workItem from="1589785075827" duration="6820000" />
+      <workItem from="1589844315625" duration="3041000" />
+      <workItem from="1589876771577" duration="11566000" />
+      <workItem from="1589931797205" duration="14325000" />
+      <workItem from="1589959622004" duration="17456000" />
+      <workItem from="1590020993472" duration="1789000" />
+      <workItem from="1590044539098" duration="10366000" />
+      <workItem from="1590062290881" duration="2283000" />
+      <workItem from="1590101872265" duration="4084000" />
+      <workItem from="1590114105397" duration="4317000" />
+      <workItem from="1590126791290" duration="6058000" />
+      <workItem from="1590657403208" duration="10000" />
+      <workItem from="1592555702867" duration="6636000" />
+      <workItem from="1592574027463" duration="3375000" />
+    </task>
+    <task id="LOCAL-00001" summary="reding">
+      <created>1587279647342</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587279647342</updated>
+    </task>
+    <task id="LOCAL-00002" summary="reding">
+      <created>1587279824454</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587279824454</updated>
+    </task>
+    <task id="LOCAL-00003" summary="reding">
+      <created>1587297987950</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587297987950</updated>
+    </task>
+    <task id="LOCAL-00004" summary="reding">
+      <created>1587300119633</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587300119633</updated>
+    </task>
+    <task id="LOCAL-00005" summary="reding">
+      <created>1587300460282</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587300460282</updated>
+    </task>
+    <task id="LOCAL-00006" summary="reding">
+      <created>1587306564513</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587306564513</updated>
+    </task>
+    <task id="LOCAL-00007" summary="reding">
+      <created>1587828668873</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587828668873</updated>
+    </task>
+    <task id="LOCAL-00008" summary="reding">
+      <created>1588406785636</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588406785636</updated>
+    </task>
+    <task id="LOCAL-00009" summary="reding">
+      <created>1588407008820</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1588407008820</updated>
+    </task>
+    <task id="LOCAL-00010" summary="reding">
+      <created>1588408619338</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1588408619338</updated>
+    </task>
+    <task id="LOCAL-00011" summary="reading">
+      <created>1592574172793</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1592574172793</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="reding" />
+    <MESSAGE value="reading" />
+    <option name="LAST_COMMIT_MESSAGE" value="reading" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/yyjj/reading/service/base/IBaseService.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/yyjj/reading/service/base/IBaseService.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/yyjj/reading/service/base/IBaseService.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
